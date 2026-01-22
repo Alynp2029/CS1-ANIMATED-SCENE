@@ -16,20 +16,64 @@ body {
     position:relative;
     left:2px; 
     top:170px;
+    animation-name: move1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  linear;
 }
+
+
+@keyframes move1{
+    0%{ transform: translate(0px, 0px);}
+    100%{transform: translate(160px, 0px); }
+}
+
+
+
 #ilya{
     width: 200px;
     position:relative;
     left:215px;
     top: 170px; 
+    animation-name: move2;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  linear;
+}
+
+@keyframes move2{
+    0%{ transform: translate(0px, 0px);}
+    100%{transform: translate(px, 160px); }
 }
 
 
 #puck{
     width: 40px;
     position: relative;
-    top: 170px;
+    top: 180px;
     left: 345px;
+
+
+}
+#jumbo{
+    width: 220px;
+    position: absolute;
+    left: 264px;
+}
+#logo{
+    width: 220px;
+    position: absolute;
+    left: 2px;
+}
+
+
+
+
+#ref{
+    width: 85px;
+    position: absolute;
+    top: 290px;
+    left: 328px;
 
 
 }
